@@ -1,4 +1,5 @@
 while True:
+    light.set_brightness(100)
     light.set_pixel_color(0, light.rgb(255, 126, 0))
     light.set_pixel_color(1, light.rgb(124,252 ,0 ))
     light.set_pixel_color(2, light.rgb(0,255 ,0))
