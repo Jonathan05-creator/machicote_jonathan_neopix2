@@ -1,5 +1,6 @@
 while True:
-    light.set_brightness(100)
+    light.set_brightness(30)
+    light.clear() and pause(3000) 
     light.set_pixel_color(0, light.rgb(255, 126, 0))
     light.set_pixel_color(1, light.rgb(124,252 ,0 ))
     light.set_pixel_color(2, light.rgb(0,255 ,0))
@@ -10,5 +11,5 @@ while True:
     light.set_pixel_color(7, light.rgb(138, 43, 226))
     light.set_pixel_color(8, light.rgb(255, 20, 147))
     light.set_pixel_color(9, light.rgb(255, 0, 255))
-    pause(3000)
-    light.clear()
+    
+    
