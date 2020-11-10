@@ -1,5 +1,4 @@
 while (true) {
-    light.setBrightness(10)
     light.setPixelColor(0, light.rgb(255, 126, 0))
     light.setPixelColor(1, light.rgb(124, 252, 0))
     light.setPixelColor(2, light.rgb(0, 255, 0))
